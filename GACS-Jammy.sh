@@ -43,15 +43,6 @@ run_command() {
 # Print banner
 print_banner() {
 	echo -e "${BLUE}${BOLD}"
-	echo "   ____    _    ____ ____     ____            _       _   "
-	echo "  / ___|  / \  / ___/ ___|   / ___|  ___ _ __(_)_ __ | |_ "
-	echo " | |  _  / _ \| |   \___ \   \___ \ / __| '__| | '_ \| __|"
-	echo " | |_| |/ ___ \ |___ ___) |   ___) | (__| |  | | |_) | |_ "
-	echo "  \____/_/   \_\____|____/   |____/ \___|_|  |_| .__/ \__|"
-	echo "                                               |_|        "
-	echo ""
-	echo "                  --- Ubuntu 22.04 ---"
-	echo "                  --- By Mostech ---"
 	echo -e "${NC}"
 }
 
@@ -171,3 +162,4 @@ for service in mongod genieacs-cwmp genieacs-nbi genieacs-fs genieacs-ui; do
 done
 
 echo -e "\n${GREEN}${BOLD}Script execution completed successfully!${NC}"
+
