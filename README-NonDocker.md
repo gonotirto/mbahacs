@@ -24,7 +24,7 @@ sudo su
 
 
 # 2) Download Script GACS
-git clone https:/[https://github.com/gonotirto/mbahacs]
+git clone https://github.com/gonotirto/mbahacs
 
 # 3) Masuk ke folder GACS
 cd GACS-Ubuntu-22.04
